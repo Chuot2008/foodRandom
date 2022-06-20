@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+}
+
+#container {
+    border-right: 100px solid rgb(200, 200, 200);
+    border-left: 100px solid rgb(200, 200, 200);
+    border-top: 70px solid rgb(200, 200, 200);
+    border-bottom: 0 solid rgb(200, 200, 200);
+}
+
+#submit {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 66%;
+    border-radius: 12px;
+    margin-left: 17%;
+    margin-right: 17%;
+    font-size: 30px;
+}
+
+#submit:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid gray;
+}
+
+h1 {
+    background-image: url("asset/food.jpeg");
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: white;
+    margin: 0;
+    font-size: 70px;
+}
+
+#menu {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 30px;
+}
+
+.foods {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 50%;
+}
+
+#menu tr:nth-child(even){background-color: #f2f2f2;}
+
+#menu tr td:hover {
+    background-color: #ddd;
+}
+
+#randomFood {
+    display: block;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 35px;
+}
+
+#foodImg {
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+hr {
+    margin-top: 15px;
+}
+@media (max-width: 1024px) {
+    #container {
+        border-right: 0;
+        border-left: 0;
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    body {
+        margin: 0;
+    }
+    
+    #submit {
+        background-color: gray;
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        width: 66%;
+        border-radius: 12px;
+        margin-left: 17%;
+        margin-right: 17%;
+        font-size: 30px;
+    }
+    
+    #submit:hover {
+        background-color: white; 
+        color: black; 
+        border: 2px solid gray;
+    }
+    
+    h1 {
+        background-image: url("asset/food.jpeg");
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        color: white;
+        margin: 0;
+        font-size: 70px;
+    }
+    
+    #menu {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 30px;
+    }
+    
+    .foods {
+        border: 1px solid #ddd;
+        padding: 8px;
+        width: 50%;
+    }
+    
+    #menu tr:nth-child(even){background-color: #f2f2f2;}
+    
+    #menu tr td:hover {
+        background-color: #ddd;
+    }
+    
+    #randomFood {
+        display: block;
+        text-align: center;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        font-size: 35px;
+    }
+    
+    #foodImg {
+        width: 100%;
+    }
+    
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    hr {
+        margin-top: 15px;
+    }
+    @media (max-width: 820px) {
+        body {
+            margin: 0;
+        }
+        
+        #submit {
+            background-color: gray;
+            border: none;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            width: 66%;
+            border-radius: 12px;
+            margin-left: 17%;
+            margin-right: 17%;
+            font-size: 30px;
+        }
+        
+        #submit:hover {
+            background-color: white; 
+            color: black; 
+            border: 2px solid gray;
+        }
+        
+        h1 {
+            background-image: url("asset/food.jpeg");
+            text-align: center;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            color: white;
+            margin: 0;
+            font-size: 70px;
+        }
+        
+        #menu {
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 30px;
+        }
+        
+        .foods {
+            border: 1px solid #ddd;
+            padding: 8px;
+            width: 50%;
+        }
+        
+        #menu tr:nth-child(even){background-color: #f2f2f2;}
+        
+        #menu tr td:hover {
+            background-color: #ddd;
+        }
+        
+        #randomFood {
+            display: block;
+            text-align: center;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            font-size: 35px;
+        }
+        
+        #foodImg {
+            width: 100%;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 25px;
+        }
+        
+        hr {
+            margin-top: 15px;
+        }
+        @media (max-width: 600px) {
+            body {
+                margin: 0;
+            }
+            
+            #submit {
+                background-color: gray;
+                border: none;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+                width: 66%;
+                border-radius: 12px;
+                margin-left: 17%;
+                margin-right: 17%;
+            }
+            
+            #submit:hover {
+                background-color: white; 
+                color: black; 
+                border: 2px solid gray;
+            }
+            
+            h1 {
+                background-image: url("asset/food.jpeg");
+                text-align: center;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                font-family: "Comic Sans MS", "Comic Sans", cursive;
+                color: white;
+                margin: 0;
+                font-size: 35px;
+            }
+            
+            #menu {
+                font-family: "Comic Sans MS", "Comic Sans", cursive;
+                border-collapse: collapse;
+                width: 100%;
+                font-size: 20px;
+            }
+            
+            .foods {
+                border: 1px solid #ddd;
+                padding: 8px;
+                width: 50%;
+            }
+            
+            #menu tr:nth-child(even){background-color: #f2f2f2;}
+            
+            #menu tr td:hover {
+                background-color: #ddd;
+            }
+            
+            #randomFood {
+                display: block;
+                text-align: center;
+                font-family: "Comic Sans MS", "Comic Sans", cursive;
+                font-size: 20px;
+            }
+            
+            #foodImg {
+                width: 100%;
+            }
+            
+            footer {
+                background-color: #333;
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                font-size: 16px;
+            }
+            
+            hr {
+                margin-top: 15px;
+            }
+        }
+    }
+}
